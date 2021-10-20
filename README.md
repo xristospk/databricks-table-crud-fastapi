@@ -6,7 +6,7 @@
 
 ## Databricks preperation
 - First you need to initialize the databricks database + table and retrieve the connection information of your databricks instance for the connection string
-- There is demo data (crudapidata.csv) and a databricks notebook (databricks-crud-api-setup.py) to create and load the databricks table in the repo
+- There is demo data [crudapidata.csv](https://github.com/xristospk/databricks-table-crud-fastapi/blob/master/crudapidata.csv) and a databricks notebook [databricks-crud-api-setup.py](https://github.com/xristospk/databricks-table-crud-fastapi/blob/master/databricks-crud-api-setup.py) to create and load the databricks table in the repo
 - Start your cluster
 - Create (and load) data in the customer table with the notebook
 - [Create a personal access token](https://docs.databricks.com/dev-tools/api/latest/authentication.html#:~:text=Generate%20a%20personal%20access%20token,-This%20section%20describes&text=in%20the%20upper%20right%20corner,the%20Generate%20New%20Token%20button.) (PAT)
