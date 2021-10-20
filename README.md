@@ -7,7 +7,6 @@
 ## Databricks preperation
 - First you need to initialize the databricks database + table and retrieve the connection information of your databricks instance for the connection string
 - There is demo data (crudapidata.csv) and a databricks notebook (databricks-crud-api-setup.py) to create and load the databricks table in the repo
-- You can also find it in the Cloud Analytics ci-hack-dab-workspace: [databricks-crud-api-setup](https://adb-1655638989873679.19.azuredatabricks.net/?o=1655638989873679#notebook/2144218504226217/) (cstx_a_EMEAID@corpdir.onmicrosoft.com user required)
 - Start your cluster
 - Create (and load) data in the customer table with the notebook
 - [Create a personal access token](https://docs.databricks.com/dev-tools/api/latest/authentication.html#:~:text=Generate%20a%20personal%20access%20token,-This%20section%20describes&text=in%20the%20upper%20right%20corner,the%20Generate%20New%20Token%20button.) (PAT)
